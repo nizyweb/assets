@@ -3,9 +3,7 @@
 The following example will download an image from the Internet in a thread and displays a dialog until the download is done. We will make sure that the thread is preserved even if the activity is restarted and that the dialog is correctly displayed and closed.
 For this example create the Android project “de.vogella.android.threadslifecycle” and the Activity “ThreadsLifecycleActivity”. Also add the permission to use the Internet to your app.
 
-    AndroidManifest
-    <![if !supportLineBreakNewLine]>
-    <![endif]>
+1. AndroidManifest
 
 You should have the following AndroidManifest.xml file.
 
